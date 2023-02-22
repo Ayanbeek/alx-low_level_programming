@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*
+/**
  * main - entry point
- * Description: prints 0,negative or posative numbers
  * Return: return 0
  */
+
 int main(void)
 {
 	int n;
@@ -14,7 +14,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 	{
-		printf("%d is posative\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n == 0)
 	{
